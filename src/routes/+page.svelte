@@ -48,7 +48,7 @@
 
 		const updateSign = () => {
 			if (!date) {
-				astrologicalValue = 'Enter a valid date';
+				astrologicalValue = 'Enter a valid';
 				return;
 			}
 			if (day && month && year && resultParagraph) {
@@ -77,7 +77,7 @@
 
 <section class="flex h-screen w-screen flex-col bg-red-400">
 	<div
-		class="flex-between m-10 flex h-full flex-col items-center justify-center gap-10 rounded-xl bg-orange-50"
+		class="flex-between m-8 flex h-full flex-col items-center justify-center gap-10 rounded-xl bg-orange-50"
 	>
 		<h1 class="text-center text-3xl font-bold text-red-400">Astrological Sign</h1>
 
@@ -131,7 +131,6 @@
 <style>
 	* {
 		font-family: 'Modak', serif;
-		font-weight: light;
 		margin: 0;
 		font-size: 2rem;
 		color: #fca5a1;
